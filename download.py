@@ -57,5 +57,6 @@ if __name__ == "__main__":
     options = Parser()
     if not options["file"]:
         print("python download.py -f 'filename.md'")
-    start(options["file"])
+    else:
+        start(options["file"])
     
